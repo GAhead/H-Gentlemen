@@ -1,0 +1,91 @@
+Unity Player [version: Unity 4.5.5f1_7684ad0c5a44]
+
+Unknown caused an Access Violation (0xc0000005)
+  in module Unknown at 0033:fae70004.
+
+Error occurred at 2014-10-27_225036.
+G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan\123.exe, run by yuiffy.
+56% memory in use.
+8095 MB physical memory [3483 MB free].
+16187 MB paging file [8958 MB free].
+8388608 MB user address space [8388435 MB free].
+Read from location ffffffff caused an access violation.
+
+Context:
+RDI:    0x00000001  RSI: 0x00000001  RAX:   0x8002eb74
+RBX:    0x026c6078  RCX: 0x00000020  RDX:   0x00000000
+RIP:    0xfae70004  RBP: 0x00000001  SegCs: 0x00000033
+EFlags: 0x00010202  RSP: 0x001af6b0  SegSs: 0x0000002b
+R8:    0x00000009  R9: 0x001af5b8  R10:   0x00362030
+R11:    0x001af632  R12: 0x026c6078  R13:   0x00000001
+R14:    0x00000000  R15: 0x00000001
+
+Bytes at CS:EIP:
+ff 15 1e 00 00 00 e9 bb 79 01 00 cc 00 00 00 00 Module 1
+C:\Program Files (x86)\Lenovo\Onekey Theater\WindowsApiHookDll64.dll
+Image Base: 0x80000000  Image Size: 0x0002b000
+File Size:  156000      File Time:  2011-06-02_135922
+Version:
+   Company:    
+   Product:    
+   FileDesc:   
+   FileVer:    0.0.0.0
+   ProdVer:    0.0.0.0
+
+Module 2
+C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll
+Image Base: 0x0f000000  Image Size: 0x00006000
+File Size:  13088       File Time:  2013-11-14_195810
+Version:
+   Company:    
+   Product:    
+   FileDesc:   
+   FileVer:    0.0.0.0
+   ProdVer:    0.0.0.0
+
+Module 3
+C:\windows\system32\USER32.dll
+Image Base: 0x77530000  Image Size: 0x000fa000
+File Size:  1008128     File Time:  2010-11-21_112410
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft? Windows? Operating System
+   FileDesc:   多用户 Windows 用户 API 客户端 DLL
+   FileVer:    6.1.7601.17514
+   ProdVer:    6.1.7601.17514
+
+Module 4
+C:\windows\system32\kernel32.dll
+Image Base: 0x77630000  Image Size: 0x0011f000
+File Size:  1163264     File Time:  2014-03-04_174402
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft? Windows? Operating System
+   FileDesc:   Windows NT 基本 API 客户端 DLL
+   FileVer:    6.1.7601.18409
+   ProdVer:    6.1.7601.18409
+
+Module 5
+C:\windows\SYSTEM32\ntdll.dll
+Image Base: 0x77750000  Image Size: 0x001a9000
+File Size:  1732032     File Time:  2013-08-29_101636
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft? Windows? Operating System
+   FileDesc:   NT 层 DLL
+   FileVer:    6.1.7601.18247
+   ProdVer:    6.1.7601.18247
+
+Module 6
+C:\windows\system32\PSAPI.DLL
+Image Base: 0x77910000  Image Size: 0x00007000
+File Size:  9216        File Time:  2009-07-14_094154
+Version:
+   Company:    Microsoft Corporation
+   Product:    Microsoft? Windows? Operating System
+   FileDesc:   Process Status Helper
+   FileVer:    6.1.7600.16385
+   ProdVer:    6.1.7600.16385
+
+
+== [end of error.log] ==

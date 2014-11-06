@@ -1,0 +1,65 @@
+Initialize engine version: 4.5.5f1 (7684ad0c5a44)
+GfxDevice: creating device client; threaded=1
+Crash!!!
+SymInit: Symbol-SearchPath: '.;G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan;G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan;C:\windows;C:\windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'yuiffy'
+OS-Version: 6.1.7601 (Service Pack 1) 0x100-0x1
+G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan\123.exe:123.exe (000000013FC40000), size: 15527936 (result: 0), SymType: '-exported-', PDB: 'G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan\123.exe', fileVersion: 4.5.5.37569
+C:\windows\SYSTEM32\ntdll.dll:ntdll.dll (0000000077750000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\ntdll.dll', fileVersion: 6.1.7601.18247
+C:\windows\system32\kernel32.dll:kernel32.dll (0000000077630000), size: 1175552 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\kernel32.dll', fileVersion: 6.1.7601.18409
+C:\windows\system32\KERNELBASE.dll:KERNELBASE.dll (000007FEFDA50000), size: 442368 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\KERNELBASE.dll', fileVersion: 6.1.7601.18409
+C:\windows\system32\HID.DLL:HID.DLL (000007FEFBA90000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
+C:\windows\system32\msvcrt.dll:msvcrt.dll (000007FEFF800000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\msvcrt.dll', fileVersion: 7.0.7601.17744
+C:\windows\system32\WS2_32.dll:WS2_32.dll (000007FEFE290000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\WS2_32.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\RPCRT4.dll:RPCRT4.dll (000007FEFE2E0000), size: 1232896 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\RPCRT4.dll', fileVersion: 6.1.7601.18532
+C:\windows\system32\NSI.dll:NSI.dll (000007FEFF620000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\NSI.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\USER32.dll:USER32.dll (0000000077530000), size: 1024000 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\USER32.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\GDI32.dll:GDI32.dll (000007FEFE140000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\GDI32.dll', fileVersion: 6.1.7601.18275
+C:\windows\system32\LPK.dll:LPK.dll (000007FEFF940000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\LPK.dll', fileVersion: 6.1.7601.18177
+C:\windows\system32\USP10.dll:USP10.dll (000007FEFF630000), size: 823296 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\USP10.dll', fileVersion: 1.626.7601.18454
+C:\windows\system32\VERSION.dll:VERSION.dll (000007FEFC7E0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\VERSION.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\ole32.dll:ole32.dll (000007FEFDE90000), size: 2109440 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\ole32.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\SHLWAPI.dll:SHLWAPI.dll (000007FEFF8C0000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\SHLWAPI.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\ADVAPI32.dll:ADVAPI32.dll (000007FEFE1B0000), size: 897024 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\ADVAPI32.dll', fileVersion: 6.1.7601.18247
+C:\windows\SYSTEM32\sechost.dll:sechost.dll (000007FEFE490000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\windows\SYSTEM32\sechost.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\SHELL32.dll:SHELL32.dll (000007FEFE5C0000), size: 14188544 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\SHELL32.dll', fileVersion: 6.1.7601.18429
+C:\windows\system32\OPENGL32.dll:OPENGL32.dll (000007FEDBBC0000), size: 1167360 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\OPENGL32.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\GLU32.dll:GLU32.dll (000007FEF7130000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\GLU32.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\DDRAW.dll:DDRAW.dll (000007FEFF700000), size: 987136 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\DDRAW.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\DCIMAN32.dll:DCIMAN32.dll (000007FEFDC60000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\DCIMAN32.dll', fileVersion: 6.1.7601.18177
+C:\windows\system32\SETUPAPI.dll:SETUPAPI.dll (000007FEFF3E0000), size: 1929216 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\SETUPAPI.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\CFGMGR32.dll:CFGMGR32.dll (000007FEFDC70000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\CFGMGR32.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\OLEAUT32.dll:OLEAUT32.dll (000007FEFE4E0000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\OLEAUT32.dll', fileVersion: 6.1.7601.17676
+C:\windows\system32\DEVOBJ.dll:DEVOBJ.dll (000007FEFDA30000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\DEVOBJ.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\dwmapi.dll:dwmapi.dll (000007FEFDD50000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\dwmapi.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\WINMM.dll:WINMM.dll (000007FEFDDB0000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\WINMM.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\MSACM32.dll:MSACM32.dll (000007FEFB660000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\MSACM32.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\IMM32.dll:IMM32.dll (000007FEFE4B0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\IMM32.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\MSCTF.dll:MSCTF.dll (000007FEFF950000), size: 1085440 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\MSCTF.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\DNSAPI.dll:DNSAPI.dll (000007FEFD000000), size: 372736 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\DNSAPI.dll', fileVersion: 6.1.7601.17570
+C:\windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (000007FEFC800000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\IPHLPAPI.DLL', fileVersion: 6.1.7601.17514
+C:\windows\system32\WINNSI.DLL:WINNSI.DLL (000007FEFC7F0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\WINNSI.DLL', fileVersion: 6.1.7600.16385
+C:\windows\system32\WINHTTP.dll:WINHTTP.dll (000007FEF7750000), size: 462848 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\WINHTTP.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\webio.dll:webio.dll (000007FEF7410000), size: 409600 (result: 0), SymType: '-nosymbols-', PDB: 'C:\windows\system32\webio.dll', fileVersion: 6.1.7601.17725
+C:\windows\system32\nvinitx.dll:nvinitx.dll (000007FEFD950000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\nvinitx.dll', fileVersion: 9.18.13.3182
+C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll:detoured.dll (000000000F000000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll'
+C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll:nvd3d9wrapx.dll (000007FEFAE80000), size: 389120 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll', fileVersion: 9.18.13.3182
+C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll:nvdxgiwrapx.dll (000007FEFAAD0000), size: 286720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll', fileVersion: 9.18.13.3182
+G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan\123_Data\Mono\mono.dll:mono.dll (000007FED6630000), size: 2990080 (result: 0), SymType: '-exported-', PDB: 'G:\unity\xiuligong fangyuzhan\xiuligong fangyuzhan\123_Data\Mono\mono.dll'
+C:\windows\system32\PSAPI.DLL:PSAPI.DLL (0000000077910000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\PSAPI.DLL', fileVersion: 6.1.7600.16385
+C:\windows\system32\MSWSOCK.dll:MSWSOCK.dll (000007FEFD180000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\MSWSOCK.dll', fileVersion: 6.1.7601.18254
+C:\windows\system32\CRYPTBASE.dll:CRYPTBASE.dll (000007FEFD840000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\CRYPTBASE.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\uxtheme.dll:uxtheme.dll (000007FEFBE10000), size: 352256 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\uxtheme.dll', fileVersion: 6.1.7600.16385
+C:\Program Files (x86)\Lenovo\Onekey Theater\ActiveDetect64.dll:ActiveDetect64.dll (0000000180000000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Lenovo\Onekey Theater\ActiveDetect64.dll'
+C:\Program Files (x86)\Lenovo\Onekey Theater\WindowsApiHookDll64.dll:WindowsApiHookDll64.dll (00000000002C0000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Lenovo\Onekey Theater\WindowsApiHookDll64.dll'
+C:\windows\system32\d3d9.dll:d3d9.dll (000007FEF6D90000), size: 2093056 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\d3d9.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\d3d8thk.dll:d3d8thk.dll (000007FEF7730000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\d3d8thk.dll', fileVersion: 6.1.7600.16385
+C:\windows\system32\dbghelp.dll:dbghelp.dll (000007FEF72E0000), size: 1200128 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
+C:\windows\system32\SspiCli.dll:SspiCli.dll (000007FEFD7B0000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\windows\system32\SspiCli.dll', fileVersion: 6.1.7601.18443
+
+========== OUTPUTING STACK TRACE ==================
+
+(0x000007FEFAE70004) ((module-name not available)): (filename not available): (function-name not available) + 0x0
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\move.js">
+    <Files>
+      <File FileName="Assets\src\makeEnemy.js" Line="12" Column="2" />
+      <File FileName="Assets\Standard Assets\move.js" Line="177" Column="27" />
+      <File FileName="Assets\Standard Assets\Character.js" Line="15" Column="24" />
+      <File FileName="Assets\src\Break.cs" Line="1" Column="1" />
+      <File FileName="Assets\src\BloodTiao.cs" Line="23" Column="17" />
+      <File FileName="Assets\src\control.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Enemy2.js" Line="128" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
