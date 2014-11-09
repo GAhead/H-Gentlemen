@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 2f1d8829ea5b9bf408ec1be6b731769b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: 0011
+    100004: _M3_Anim_Data
+    100006: body
+    100008: Chest Ref
+    100010: Foot Left Ref
+    100012: Foot Right Ref
+    100014: Hand Left Ref
+    100016: Hand Right Ref
+    100018: head
+    100020: Head Ref
+    100022: hero05
+    100024: hero2
+    100026: hero3
+    100028: left hand
+    100030: left leg
+    100032: m3bone_root
+    100034: Origin Ref
+    100036: OverHead Ref
+    100038: right hand
+    100040: right leg
+    400000: //RootNode
+    400002: 0011
+    400004: _M3_Anim_Data
+    400006: body
+    400008: Chest Ref
+    400010: Foot Left Ref
+    400012: Foot Right Ref
+    400014: Hand Left Ref
+    400016: Hand Right Ref
+    400018: head
+    400020: Head Ref
+    400022: hero05
+    400024: hero2
+    400026: hero3
+    400028: left hand
+    400030: left leg
+    400032: m3bone_root
+    400034: Origin Ref
+    400036: OverHead Ref
+    400038: right hand
+    400040: right leg
+    2300000: 0011
+    3300000: run
+    4300000: idle
+    4300002: 0011
+    7400000: attack
+    7400002: die
+    7400004: //RootNode
+    7400006: //RootNode
+    7400008: idle
+    7400010: run
+    7400012: all
+    9500000: 0011
+    9500002: //RootNode
+    13700000: 0011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    pivotNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: NewEvent
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 0011
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/body
+        weight: 1
+      - path: m3bone_root/body/Chest Ref
+        weight: 1
+      - path: m3bone_root/body/head
+        weight: 1
+      - path: m3bone_root/body/head/Head Ref
+        weight: 1
+      - path: m3bone_root/body/left hand
+        weight: 1
+      - path: m3bone_root/body/left hand/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/body/left leg
+        weight: 1
+      - path: m3bone_root/body/left leg/Foot Left Ref
+        weight: 1
+      - path: m3bone_root/body/right hand
+        weight: 1
+      - path: m3bone_root/body/right hand/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/body/right leg
+        weight: 1
+      - path: m3bone_root/body/right leg/Foot Right Ref
+        weight: 1
+      - path: m3bone_root/hero2
+        weight: 1
+      - path: m3bone_root/hero3
+        weight: 1
+      - path: m3bone_root/hero05
+        weight: 1
+      - path: m3bone_root/Origin Ref
+        weight: 1
+      - path: m3bone_root/OverHead Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 41
+      lastFrame: 69
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 0011
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/body
+        weight: 1
+      - path: m3bone_root/body/Chest Ref
+        weight: 1
+      - path: m3bone_root/body/head
+        weight: 1
+      - path: m3bone_root/body/head/Head Ref
+        weight: 1
+      - path: m3bone_root/body/left hand
+        weight: 1
+      - path: m3bone_root/body/left hand/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/body/left leg
+        weight: 1
+      - path: m3bone_root/body/left leg/Foot Left Ref
+        weight: 1
+      - path: m3bone_root/body/right hand
+        weight: 1
+      - path: m3bone_root/body/right hand/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/body/right leg
+        weight: 1
+      - path: m3bone_root/body/right leg/Foot Right Ref
+        weight: 1
+      - path: m3bone_root/hero2
+        weight: 1
+      - path: m3bone_root/hero3
+        weight: 1
+      - path: m3bone_root/hero05
+        weight: 1
+      - path: m3bone_root/Origin Ref
+        weight: 1
+      - path: m3bone_root/OverHead Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: attack
+      takeName: Take 001
+      firstFrame: 81
+      lastFrame: 119
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 0011
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/body
+        weight: 1
+      - path: m3bone_root/body/Chest Ref
+        weight: 1
+      - path: m3bone_root/body/head
+        weight: 1
+      - path: m3bone_root/body/head/Head Ref
+        weight: 1
+      - path: m3bone_root/body/left hand
+        weight: 1
+      - path: m3bone_root/body/left hand/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/body/left leg
+        weight: 1
+      - path: m3bone_root/body/left leg/Foot Left Ref
+        weight: 1
+      - path: m3bone_root/body/right hand
+        weight: 1
+      - path: m3bone_root/body/right hand/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/body/right leg
+        weight: 1
+      - path: m3bone_root/body/right leg/Foot Right Ref
+        weight: 1
+      - path: m3bone_root/hero2
+        weight: 1
+      - path: m3bone_root/hero3
+        weight: 1
+      - path: m3bone_root/hero05
+        weight: 1
+      - path: m3bone_root/Origin Ref
+        weight: 1
+      - path: m3bone_root/OverHead Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: die
+      takeName: Take 001
+      firstFrame: 121
+      lastFrame: 185
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 0011
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/body
+        weight: 1
+      - path: m3bone_root/body/Chest Ref
+        weight: 1
+      - path: m3bone_root/body/head
+        weight: 1
+      - path: m3bone_root/body/head/Head Ref
+        weight: 1
+      - path: m3bone_root/body/left hand
+        weight: 1
+      - path: m3bone_root/body/left hand/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/body/left leg
+        weight: 1
+      - path: m3bone_root/body/left leg/Foot Left Ref
+        weight: 1
+      - path: m3bone_root/body/right hand
+        weight: 1
+      - path: m3bone_root/body/right hand/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/body/right leg
+        weight: 1
+      - path: m3bone_root/body/right leg/Foot Right Ref
+        weight: 1
+      - path: m3bone_root/hero2
+        weight: 1
+      - path: m3bone_root/hero3
+        weight: 1
+      - path: m3bone_root/hero05
+        weight: 1
+      - path: m3bone_root/Origin Ref
+        weight: 1
+      - path: m3bone_root/OverHead Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: all
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 188
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: 0011
+        weight: 1
+      - path: _M3_Anim_Data
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/body
+        weight: 1
+      - path: m3bone_root/body/Chest Ref
+        weight: 1
+      - path: m3bone_root/body/head
+        weight: 1
+      - path: m3bone_root/body/head/Head Ref
+        weight: 1
+      - path: m3bone_root/body/left hand
+        weight: 1
+      - path: m3bone_root/body/left hand/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/body/left leg
+        weight: 1
+      - path: m3bone_root/body/left leg/Foot Left Ref
+        weight: 1
+      - path: m3bone_root/body/right hand
+        weight: 1
+      - path: m3bone_root/body/right hand/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/body/right leg
+        weight: 1
+      - path: m3bone_root/body/right leg/Foot Right Ref
+        weight: 1
+      - path: m3bone_root/hero2
+        weight: 1
+      - path: m3bone_root/hero3
+        weight: 1
+      - path: m3bone_root/hero05
+        weight: 1
+      - path: m3bone_root/Origin Ref
+        weight: 1
+      - path: m3bone_root/OverHead Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
