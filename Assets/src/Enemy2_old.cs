@@ -39,21 +39,21 @@ public class Enemy2 : MonoBehaviour
 						//设置敌人的方向，面朝主角
 						transform.LookAt (playe.transform , Vector3.up);
 				} else if (Vector3.Distance (transform.position, playe.transform.position) <= MIN_DISTANCE) {
-						gameObject.animation.CrossFade ("attack");
+						gameObject.GetComponent<Animation>().CrossFade ("attack");
 						enemyState = ENEMY_ATTACK;
 						transform.LookAt (playe.transform);
 						wait = attackFrame;
 				}
 				switch (enemyState) {
 				case ENEMY_STAND:
-						gameObject.animation.CrossFade ("idle"); 
+						gameObject.GetComponent<Animation>().CrossFade ("idle"); 
 						break;
 				case ENEMY_RUN:
 			//敌人朝主角奔跑
 			//if(Vector3.Distance(transform.position,playe.transform.position ) > 3)
 						{
 								//transform.Translate(Vector3.forward * Time.deltaTime * 5);
-							gameObject.animation.CrossFade ("run");
+							gameObject.GetComponent<Animation>().CrossFade ("run");
 			//Debug.Log(Vector3.Dot( rigidbody.velocity , transform.forward) + " , " + peng);
 
 						}
@@ -68,8 +68,8 @@ public class Enemy2 : MonoBehaviour
 		//Debug.Log ("touch");
 		if (enemyState == ENEMY_RUN) {
 			transform.LookAt (playe.transform , Vector3.up);
-			if(((Vector3.Dot( rigidbody.velocity , transform.forward)) < maxSpeed) )
-				rigidbody.AddRelativeForce (Vector3.forward * JiaSpeed);
+			if(((Vector3.Dot( GetComponent<Rigidbody>().velocity , transform.forward)) < maxSpeed) )
+				GetComponent<Rigidbody>().AddRelativeForce (Vector3.forward * JiaSpeed);
 		}
 	}
 }

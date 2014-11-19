@@ -39,22 +39,22 @@ public class Enemy : MonoBehaviour
 						//设置敌人的方向，面朝主角
 						transform.LookAt (playe.transform);
 				} else if (Vector3.Distance (transform.position, playe.transform.position) <= MIN_DISTANCE) {
-						gameObject.animation.CrossFade ("attack");
+						gameObject.GetComponent<Animation>().CrossFade ("attack");
 						enemyState = ENEMY_ATTACK;
 						transform.LookAt (playe.transform);
 						wait = attackFrame;
 				}
 				switch (enemyState) {
 				case ENEMY_STAND:
-						gameObject.animation.CrossFade ("idle"); 
+						gameObject.GetComponent<Animation>().CrossFade ("idle"); 
 						break;
 				case ENEMY_RUN:
 			//敌人朝主角奔跑
 			//if(Vector3.Distance(transform.position,playe.transform.position ) > 3)
 						{
 								//transform.Translate(Vector3.forward * Time.deltaTime * 5);
-								gameObject.animation.CrossFade ("run");
-								rigidbody.AddRelativeForce (Vector3.forward * JiaSpeed);
+								gameObject.GetComponent<Animation>().CrossFade ("run");
+								GetComponent<Rigidbody>().AddRelativeForce (Vector3.forward * JiaSpeed);
 						}
 						break;
 				case ENEMY_ATTACK:

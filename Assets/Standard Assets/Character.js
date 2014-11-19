@@ -47,7 +47,7 @@ function Update(){
 	if(dying ==0 && hp<=0){
 		wait = dieTime;
 		dying=1;
-		animation.Play("die");
+		GetComponent.<Animation>().Play("die");
 		if(mo && mo.enabled==true){
 			mo.enabled=false;
 			moed=true;
@@ -65,7 +65,7 @@ function Update(){
 function Attack(target:GameObject){
 	var t:Character = target.GetComponent.<Character>() as Character;
 	if(t){
-		audio.PlayOneShot(attackSound);
+		GetComponent.<AudioSource>().PlayOneShot(attackSound);
 		t.BeAttacked(damage);
 	}
 }

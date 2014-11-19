@@ -1,12 +1,12 @@
 ﻿#pragma strict
 
 function Start () {
-	animation.Stop();  
+	GetComponent.<Animation>().Stop();  
 }
 
 function Update () {
     if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.1)  
-        animation.CrossFade("run");  
+        GetComponent.<Animation>().CrossFade("run");  
     else  
-        animation.CrossFade("stand");  
+        GetComponent.<Animation>().CrossFade("stand");  
 }

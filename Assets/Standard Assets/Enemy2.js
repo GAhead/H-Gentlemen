@@ -29,7 +29,7 @@ var enemyTag= "team2";
 				enemyState = ENEMY_STAND;
 				wait = 0;
 				peng = 0;
-				rigidbody.centerOfMass.y=massY;
+				GetComponent.<Rigidbody>().centerOfMass.y=massY;
 		}
 
 
@@ -44,10 +44,10 @@ private var attacked:int =0;
 			}
 			if(!playe) playe = FindNearest();
 			if(!playe){
-				animation.CrossFade ("idle"); 
+				GetComponent.<Animation>().CrossFade ("idle"); 
 				return;
 			}
-			forwardSpeed = Vector3.Dot( rigidbody.velocity , transform.forward);
+			forwardSpeed = Vector3.Dot( GetComponent.<Rigidbody>().velocity , transform.forward);
 			//animation["run"].speed = animationRunSpeed * forwardSpeed;
 				if (wait > 0.0) {
 						transform.LookAt (playe.transform);
@@ -73,11 +73,11 @@ private var attacked:int =0;
 				}
 				switch (enemyState) {
 				case ENEMY_STAND:
-						animation.CrossFade ("idle"); 
+						GetComponent.<Animation>().CrossFade ("idle"); 
 						break;
 				case ENEMY_RUN:
 			//敌人朝主角奔跑 
-					animation.CrossFade ("run");
+					GetComponent.<Animation>().CrossFade ("run");
 					if(peng ==1 && forwardSpeed < maxSpeed ){
 //						rigidbody.AddRelativeForce(Vector3.forward * jiaSpeed);
 						transform.position += transform.forward * Time.deltaTime * maxSpeed;
@@ -119,8 +119,8 @@ private var attacked:int =0;
 	}
 	
 	function SetAttack(){
-		animation["attack"].speed = attackSpeed * (1.0*attackFrame)/30.0;
-		gameObject.animation.Play ("attack");
+		GetComponent.<Animation>()["attack"].speed = attackSpeed * (1.0*attackFrame)/30.0;
+		gameObject.GetComponent.<Animation>().Play ("attack");
 		attackTime = 1.0 / attackSpeed;
 		attackPointTime = attackTime* attackPoint/attackFrame;
 		wait = attackTime;

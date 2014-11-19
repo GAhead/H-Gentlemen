@@ -36,7 +36,7 @@ function Awake(){
 	Init=transform.position;
 	state=0;
 	sqrMaxSpeed = maxSpeed * maxSpeed;
-	rigidbody.centerOfMass.y=massY;
+	GetComponent.<Rigidbody>().centerOfMass.y=massY;
 	
 	 AnniuChang = Screen.width/8;
 	AnniuKuan = Screen.height/5;
@@ -115,8 +115,8 @@ function OnGUI(){
         //回去
 
         transform.position=Init;
-        rigidbody.velocity=Vector3.zero;
-        rigidbody.rotation.Set(0,0,0,0);
+        GetComponent.<Rigidbody>().velocity=Vector3.zero;
+        GetComponent.<Rigidbody>().rotation.Set(0,0,0,0);
 
     }  
     
@@ -135,7 +135,7 @@ function OnGUI(){
     //显示模型旋转信息   wa
 
     GUI.Label(Rect(startX + 3*(AnniuChang +Jianju),startY + 1*(AnniuKuan +Jianju),200,30),"模型旋转"+transform.rotation);  
-	GUI.Label(Rect(startX + 3*(AnniuChang +Jianju),startY + 0.33*(AnniuKuan +Jianju),200,30),"模型速度"+rigidbody.velocity + (rigidbody.velocity.sqrMagnitude));
+	GUI.Label(Rect(startX + 3*(AnniuChang +Jianju),startY + 0.33*(AnniuKuan +Jianju),200,30),"模型速度"+GetComponent.<Rigidbody>().velocity + (GetComponent.<Rigidbody>().velocity.sqrMagnitude));
 	var t:Character = GetComponent.<Character>() as Character;
 	var hp:int = 0;
 	if(t) hp = t.getHp();
@@ -147,12 +147,12 @@ private var roing=0;
 private var jumping=0;
 private var forwardSpeed:double;
 function FixedUpdate(){
-	forwardSpeed = Vector3.Dot( rigidbody.velocity , transform.forward);
-	if(jumping==1) animation["run"].speed = animationRunSpeed;
+	forwardSpeed = Vector3.Dot( GetComponent.<Rigidbody>().velocity , transform.forward);
+	if(jumping==1) GetComponent.<Animation>()["run"].speed = animationRunSpeed;
 	else{
-	animation["run"].speed = animationRunSpeed * forwardSpeed;
-	if(roing == 1 && animation["run"].speed<RotateSpeed * animationRotateSpeed) 
-		animation["run"].speed = RotateSpeed * animationRotateSpeed;
+	GetComponent.<Animation>()["run"].speed = animationRunSpeed * forwardSpeed;
+	if(roing == 1 && GetComponent.<Animation>()["run"].speed<RotateSpeed * animationRotateSpeed) 
+		GetComponent.<Animation>()["run"].speed = RotateSpeed * animationRotateSpeed;
 	}
 	if(Input.GetKey(KeyCode.UpArrow)) {Run();}
 	if(Input.GetKey(KeyCode.DownArrow)) {RunBack();}
@@ -162,10 +162,10 @@ function FixedUpdate(){
 	if(Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.Escape)) Jump();
 	if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.Y) ) Qilai();
 	if(Input.GetKey(KeyCode.S) ) QianGun();
-	if(t==0) animation.CrossFade("idle");
+	if(t==0) GetComponent.<Animation>().CrossFade("idle");
 	switch(state){
 	case ATTACK:
-		animation.CrossFade("attack");
+		GetComponent.<Animation>().CrossFade("attack");
 		wait-=Time.deltaTime;
 		if(attacked == 0 && attackTime - wait >= attackPointTime){
 			var tt:Character = GetComponent.<Character>() as Character;
@@ -182,20 +182,20 @@ function FixedUpdate(){
 }
 
 function Run(){
-		if(peng ==1 && forwardSpeed < maxSpeed )rigidbody.AddRelativeForce(Vector3.forward * jiaSpeed);
-		if(state!=ATTACK)animation.CrossFade("run");
+		if(peng ==1 && forwardSpeed < maxSpeed )GetComponent.<Rigidbody>().AddRelativeForce(Vector3.forward * jiaSpeed);
+		if(state!=ATTACK)GetComponent.<Animation>().CrossFade("run");
 		t=1;
 }
 
 function RunBack(){
-		if(peng == 1 && -forwardSpeed < maxSpeed )rigidbody.AddRelativeForce(Vector3.forward * -jiaSpeed);
-		if(state!=ATTACK)animation.CrossFade("run");
+		if(peng == 1 && -forwardSpeed < maxSpeed )GetComponent.<Rigidbody>().AddRelativeForce(Vector3.forward * -jiaSpeed);
+		if(state!=ATTACK)GetComponent.<Animation>().CrossFade("run");
 		t=1;
 }
 
 function Rot(x:int){
-	rigidbody.transform.Rotate(Vector3.up * Time.deltaTime * RotateSpeed * x);
-	if(state!=ATTACK)animation.CrossFade("run");
+	GetComponent.<Rigidbody>().transform.Rotate(Vector3.up * Time.deltaTime * RotateSpeed * x);
+	if(state!=ATTACK)GetComponent.<Animation>().CrossFade("run");
 	t=1;
 	roing=1;
 }
@@ -208,15 +208,15 @@ function Attack(){
 }
 
 function Qilai(){
-	rigidbody.AddRelativeTorque(Vector3.forward *(fanSpeed));
+	GetComponent.<Rigidbody>().AddRelativeTorque(Vector3.forward *(fanSpeed));
 }
 
 function QianGun(){
-	rigidbody.AddRelativeTorque(Vector3.right *(fanSpeed));
+	GetComponent.<Rigidbody>().AddRelativeTorque(Vector3.right *(fanSpeed));
 }
 
 function Jump(){
-	if(peng ==1)rigidbody.velocity.y+=jumpSpeed;
+	if(peng ==1)GetComponent.<Rigidbody>().velocity.y+=jumpSpeed;
 	jumping=1;
 }
 
@@ -247,7 +247,7 @@ function OnCollisionStay(co : Collision){
 	}
 	
 	function SetAttack(){
-		animation["attack"].speed = attackSpeed;
+		GetComponent.<Animation>()["attack"].speed = attackSpeed;
 		attackTime = 1.0 / attackSpeed;
 		attackPointTime = attackTime* attackPoint/attackFrame;
 		wait = attackTime;
