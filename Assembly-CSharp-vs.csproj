@@ -183,6 +183,7 @@
      <Compile Include="Assets\src\Break.cs" />
      <Compile Include="Assets\src\Enemy.cs" />
      <Compile Include="Assets\src\Enemy2_old.cs" />
+     <Compile Include="Assets\src\cameraCtrl.cs" />
      <Compile Include="Assets\src\clickmove.cs" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.7.0.txt" />

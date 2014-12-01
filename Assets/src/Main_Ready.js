@@ -35,7 +35,7 @@ function OnGUI(){
 		ts = GameObject.FindGameObjectsWithTag("team2");
 		for (baby111 in ts){
 			if(baby111){
-					//baby111.transform.localScale = new Vector3(100,100,100);
+					baby111.transform.localScale = new Vector3(100,100,100);
 				}
 			}
         Application.LoadLevel("fight") ;

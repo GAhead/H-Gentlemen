@@ -1,13 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\Pick_Buy.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\Main_Ready.js">
     <Files>
-      <File FileName="Assets\src\Main_Ready.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\move.js" Line="1" Column="1" />
-      <File FileName="Assets\src\clickmove.cs" Line="13" Column="10" />
+      <File FileName="Assets\src\cameraCtrl.cs" Line="77" Column="31" />
+      <File FileName="Assets\src\clickmove.cs" Line="29" Column="14" />
+      <File FileName="Assets\src\Main_Ready.js" Line="25" Column="6" />
+      <File FileName="Assets\Standard Assets\move.js" Line="15" Column="18" />
       <File FileName="Assets\src\Break.cs" Line="1" Column="1" />
-      <File FileName="Assets\src\Main_Pick.js" Line="15" Column="35" />
-      <File FileName="Assets\src\Pick_Buy.js" Line="42" Column="9" />
+      <File FileName="Assets\src\Main_Pick.js" Line="15" Column="36" />
+      <File FileName="Assets\src\Pick_Buy.js" Line="11" Column="80" />
+      <File FileName="Assets\src\Main_Fight.js" Line="9" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
