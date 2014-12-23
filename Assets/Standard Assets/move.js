@@ -47,7 +47,7 @@ function Awake(){
 	}
 }
 
-/*function OnGUI(){  
+function OnGUI(){  
 
     //设置GUI背景色  
     GUI.backgroundColor = Color.red;  
@@ -140,7 +140,7 @@ function Awake(){
 	var hp:int = 0;
 	if(t) hp = t.getHp();
 	GUI.Label(Rect(startX + 3*(AnniuChang +Jianju),startY + 0.66*(AnniuKuan +Jianju),200,30),"那啥"+hp);
-}  */
+}  
 private var t=0;
 private var peng=0;
 private var roing=0;
