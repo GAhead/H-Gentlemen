@@ -14,6 +14,12 @@ private var en:Enemy2;
 private var moed=false;
 private var ened=false;
 private var UI:Transform;
+private var m_gm : GameObject;
+private var m_gms :GameManage;
+function Awake () {
+		m_gm = GameObject.FindWithTag("GM");
+		m_gms = m_gm.GetComponent("GameManage");
+	}
 function Start(){
 	hp = maxHp;
 	dying=0;
@@ -47,6 +53,10 @@ function Update(){
 	if(dying ==0 && hp<=0){
 		wait = dieTime;
 		dying=1;
+		if(this.tag == "team1")
+		{
+			m_gms.getm(500);
+		}
 		GetComponent.<Animation>().Play("die");
 		if(mo && mo.enabled==true){
 			mo.enabled=false;

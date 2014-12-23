@@ -65,6 +65,7 @@
      <Compile Include="Assets\src\anima.js" />
      <Compile Include="Assets\src\control.js" />
      <Compile Include="Assets\src\makeEnemy.js" />
+     <Compile Include="Assets\src\random baby.js" />
      <Compile Include="Assets\src\test.js" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.7.0.txt" />

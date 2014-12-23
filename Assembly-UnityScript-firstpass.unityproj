@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character.js" />
      <Compile Include="Assets\Standard Assets\Enemy2.js" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\GameManage.js" />
      <Compile Include="Assets\Standard Assets\move.js" />
      <None Include="Assets\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\NGUI\ReadMe - 3.7.0.txt" />

@@ -9,7 +9,11 @@ private var Jianju = 10;
 	var ts:GameObject[] ;
 	var baby111:GameObject;
 	var m_pick:Pick_Buy;
+	private var m_gm : GameObject;
+	private var m_gms :GameManage;
 function Awake () {
+	m_gm = GameObject.FindWithTag("GM");
+	m_gms = m_gm.GetComponent("GameManage");
 	 AnniuChang = Screen.width/8;
 	AnniuKuan = Screen.height/5;
 	ts = GameObject.FindGameObjectsWithTag("buyed");
@@ -29,7 +33,8 @@ function Awake () {
 }
 
 function OnGUI(){  
-	
+	GUI.Label(Rect(100,0,100,50),"HP:"+m_gms.myHP().ToString());
+	GUI.Label(Rect(0,0,100,50),"Money:"+m_gms.myMoney().ToString());
 	if(GUI.RepeatButton(Rect(startX + 2*(AnniuChang +Jianju),startY + 2*(AnniuKuan +Jianju),AnniuChang,AnniuKuan),"start"))
 	{  
 		ts = GameObject.FindGameObjectsWithTag("team2");
