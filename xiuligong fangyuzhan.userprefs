@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\src\Main_Fight.js">
     <Files>
-      <File FileName="Assets\src\Main_Fight.js" Line="17" Column="35" />
+      <File FileName="Assets\src\Main_Pick.js" Line="12" Column="14" />
+      <File FileName="Assets\src\Main_Fight.js" Line="15" Column="3" />
       <File FileName="Assets\src\Main_Ready.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Enemy2.js" Line="39" Column="18" />
-      <File FileName="Assets\Standard Assets\Water (Pro Only)\GameManage.js" Line="30" Column="10" />
+      <File FileName="Assets\Standard Assets\Enemy2.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Water (Pro Only)\GameManage.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

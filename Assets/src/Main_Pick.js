@@ -6,8 +6,20 @@
 	var AnniuKuan = 50;
 //绘制UI界面  
 private var Jianju = 10;
-private var m_gm : GameObject;
-private var m_gms :GameManage;
+var GameM:GameObject ;
+private static var GmIsClone = false;
+private var GM : GameObject;
+ //缁樺埗UI鐣岄潰  
+ private var m_gm : GameObject;
+ private var m_gms :GameManage;
+function Awake(){
+	if(!GmIsClone)
+	{
+		GM = Instantiate(GameM,transform.position,transform.rotation) as GameObject;
+		GmIsClone = true;
+	}
+	DontDestroyOnLoad(GM);
+}
 function Start () {
 	 AnniuChang = Screen.width/8;
 	AnniuKuan = Screen.height/5;
